@@ -61,3 +61,8 @@ The Hybrid Model outperformed all others, achieving the lowest MSE and the highe
    python -m nltk.downloader punkt stopwords wordnet
    ```  
 5. Follow the steps in the notebook to train and evaluate the models.
+
+## Dataset Source
+The dataset used in this project is publicly available on Kaggle:
+- **Dataset**: [TripAdvisor Hotel Reviews](https://www.kaggle.com/datasets/joebeachcapital/hotel-reviews)
+- **Author(s)/Contributor(s)**: [Joakim Arvidsson](https://www.kaggle.com/joebeachcapital)
