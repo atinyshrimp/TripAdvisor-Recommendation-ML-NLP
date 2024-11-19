@@ -47,3 +47,17 @@ The Hybrid Model outperformed all others, achieving the lowest MSE and the highe
    ```bash
    git clone https://github.com/atinyshrimp/TripAdvisor-Recommendation-Challenge.git
    cd TripAdvisor-Recommendation-Challenge
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook notebooks/recommendation_model.ipynb
+   ```
+4. Download NLTK data packages (stopwords, punkt, and wordnet):
+   ```bash
+   python -m nltk.downloader punkt stopwords wordnet
+   ```  
+5. Follow the steps in the notebook to train and evaluate the models.
